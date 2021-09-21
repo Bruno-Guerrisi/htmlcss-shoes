@@ -2,4 +2,67 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.sneakers img {
+    width: 630px;
+}
+.sneakers h1 {
+    font-size: 40px;
+    color: yellow;
+}
+
+/* SNEAKERS BLUE */
+.sneakers-blue{
+    background-color: red;
+    height: 100vh;
+    position: relative;
+}
+
+.product-01-blue{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/* SNEAKERS WHITE */
+.sneakers-white{
+    background-color: green;
+    height: 100vh;
+    position: relative;
+}
+
+.product-02-white{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+
+/* SNEAKERS GREEN */
+.sneakers-green{
+    background-color: yellow;
+    height: 100vh;
+    position: relative;
+}
+
+.product-03-green{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.product-03-green > h1 {
+    font-size: 40px;
+    color: green;
 }
